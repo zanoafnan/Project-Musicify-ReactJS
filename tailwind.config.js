@@ -6,16 +6,18 @@ export default {
   ],
   theme: {
     extend: {
+      animation: ['group-hover'],
       colors:{
-        brightColor: "#afbd9f",
-        backgroundColor: "#8b997f",
+        brightColor: "#6c6cac",
+        darkColor: "#1e2180",
       },
       backgroundImage: {
-        'home': "url('/src/assets/img/hometea.jpg')",
-        'about': "url('/src/assets/img/aboutbg.jpg')",
-      }
+        'bg': "url('/src/assets/img/bg.png')",
+        'glasscard': "url('/src/assets/img/glasscard.png')",
+        'navbarbg': "url('/src/assets/img/navbarbg.png')",
+       
     },
   },
   plugins: [],
 }
-
+}
