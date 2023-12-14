@@ -3,7 +3,7 @@ import React from 'react';
 const Detail = ({album, artists, name}) => {
 
     return (
-        <div className="offset-md-1 col-sm-4 gap-5  " >
+        <div className="offset-md-1 col-sm-4 gap-5 mt-16 mb-9 " >
             <div className="row col-sm-12 px-0  ">
                 <img 
                     className="mx-auto w-96 mt-7 "
