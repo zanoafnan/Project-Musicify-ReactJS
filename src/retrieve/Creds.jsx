@@ -1,7 +1,7 @@
 const Creds = () => {
     return {
-        ClientId: process.env.ClientId,
-        ClientSecret: process.env.ClientSecret
+        ClientId: import.meta.env.ClientId,
+        ClientSecret: import.meta.env.ClientSecret
     };
 };
 
