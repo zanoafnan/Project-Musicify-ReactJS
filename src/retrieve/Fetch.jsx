@@ -7,8 +7,8 @@ export default async function handler(request, response) {
   const res = await fetch('https://...', {
     method: 'POST',
     body: JSON.stringify({
-      client_id: ClientId,
-      client_secret: ClientSecret,
+        ClientId: ClientId,
+        ClientSecret: ClientSecret,
     }),
     headers: { 'Content-Type': 'application/json' },
   });
