@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { Creds } from '/Creds';
+import { Creds } from './retrieve/Creds';
 
 export default async function handler(request, response) {
   const { ClientId, ClientSecret } = Creds();
